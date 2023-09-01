@@ -126,7 +126,7 @@ const App = () => {
   };
 
   const generatePrompt = () => {
-    const prompt = `Generate a 7-day diet plan and simple Home workout plan for a person who is trying to achieve ${selectedGoal} of Age: ${age} whose Preferred cuisine is ${selectedCuisineStyle} who has the Dietary preference: ${selectedDietStyle} and has the Health condition of ${healthProblem}`;
+    const prompt = `Create a 7-day meal plan and easy at-home exercise routine for a person who is attempting to ${selectedGoal} and is between the ages of ${age}, prefers ${selectedCuisineStyle} food, prefers the ${selectedDietStyle} diet, and has ${healthProblem}.`;
 
     return prompt;
   };
